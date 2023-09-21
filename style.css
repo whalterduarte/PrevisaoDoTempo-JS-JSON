@@ -1,0 +1,169 @@
+:root{
+    --green1:#689017;
+    --green2:#577f11;
+    --green3:#466e0c;
+    --green4:#345d06;
+    --green5:#234c00;
+    --white:#fff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 55vh;
+    min-height: 400px;
+    min-width: 320px;
+    max-width: 400px;
+    background: rgb(25,25,25);
+    background: linear-gradient(24deg, rgba(25,25,25,1) 0%, rgba(23, 13, 163, 0.164) 40%, rgba(19,19,19,0.6867121848739496) 77%, rgba(76, 150, 199, 0.253) 100%);
+    border-radius: 20px;
+    
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--green5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:var(--green1);;
+    margin: 20px 0;
+}
+strong{
+    color: red;
+}
+
+.busca {
+    display: flex;
+    width: 300px;
+}
+.busca #searchInput {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.busca button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color:var(--green3);
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.busca button:hover {
+    background-color: #444;
+}
+
+.resultado {
+    width: 300px;
+    display: none;
+    border: 1px dotted #FFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.info .temp {
+    flex: 1;
+    text-align: center;
+
+}
+.info .vento {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.info img{
+    width: 80px;
+}
+
+.tempTitulo,
+.ventoTitulo {
+    color: var(--green1);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.tempInfo,
+.ventoInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ventoInfo span {
+    color: var(--green1);
+}
+.tempInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.ventoPonto {
+    width:15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.aviso {
+    color: #FFF;
+    padding-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+}
+sup{
+    color: var(--green1);
+   
+}
