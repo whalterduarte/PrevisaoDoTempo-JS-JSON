@@ -1,5 +1,8 @@
+<!-- Título do Projeto -->
+<h1 align="center">Aplicação de Previsão do Tempo</h1>
 
-# README - Aplicação de Previsão do Tempo
+
+<!-- Descrição do Projeto -->
 
 **Este repositório hospeda o código-fonte de uma simples aplicação de previsão do tempo desenvolvida utilizando tecnologias web padrão, como HTML, CSS, JavaScript e JSON.** A aplicação pode ser acessada em [https://clima.whalter.com.br/](https://clima.whalter.com.br/).
 
@@ -24,3 +27,12 @@ A interface do usuário da aplicação foi construída utilizando tecnologias we
 A aplicação utiliza uma API de terceiros para obter informações de previsão do tempo:
 
 - **OpenWeather API**: Uma API de clima que fornece informações de previsão de tempo em tempo real para várias localizações em todo o mundo.
+
+---
+
+<p align="center">
+  <a href="https://github.com/seu_usuario/seu_projeto">
+    <img src="https://img.shields.io/github/license/seu_usuario/seu_projeto" alt="Licença">
+  </a>
+</p>
+
